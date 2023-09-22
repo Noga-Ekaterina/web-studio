@@ -1,0 +1,33 @@
+@media screen and (min-width:1920px) {
+    h1{
+        font-size: 50px;
+        margin-bottom: 44px
+    }
+    h1+p{
+        margin-bottom: 35px
+    }
+    .backg_red_a, .backg_n_a{
+        padding: 19px 53px
+    }
+    .no_big{
+        display: none
+    }
+    #block_shadow>*{
+        max-width: 1000px;
+    }
+    #post_form{
+        padding: 200px 115px
+    }
+    #post_form .form_h{
+        font-size: 35px
+    }
+    .close_shadow{
+        font-size: 30px
+    }
+    #form_number{
+        padding: 73px 188px 130px
+    }
+    #form_number .form_h{
+        font-size: 45px
+    }
+}

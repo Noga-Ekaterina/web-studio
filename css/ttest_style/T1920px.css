@@ -1,0 +1,17 @@
+@media screen and (min-width:1920px) {
+    .slide{
+        padding: 0 85px
+    }
+    h1+p{
+        max-width: 70ch
+    }
+    #buttons{
+        padding: 35px 48px 7px
+    }
+    .option{
+        padding: 19px
+    }
+    .cvest_h{
+        font-size: 35px
+    }
+}

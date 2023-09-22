@@ -1,0 +1,36 @@
+@media screen and (max-width:767px) {
+   h1{
+      font-size: 25px ;
+   }
+   #video+h2, img~h2{
+      text-align: center;
+      font-size: 18px !important;
+      width: 260px;
+      margin: auto;
+      margin-bottom: 37px;
+      margin-top: 45px;
+   }
+   main form{
+      width: 205px;
+      margin: auto;
+   }
+   main input{
+      margin-bottom: 37px;
+   }
+   main .backg_red_a{
+      margin: 30px 0;
+      width: 100%;
+   }
+   .margin_sma_p{
+      margin-bottom: 35px;
+   }
+   #img_float{
+      margin-bottom: 15px;
+   }
+   img{
+      width: 100%;
+   }
+   #img_float~p{
+      margin-top: 20px;
+   }
+}

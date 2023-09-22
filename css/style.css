@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Tenor+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+p {
+    line-height: 190%;
+    /* 30.4px */
+}
+
+header,
+main > div,
+footer {
+    box-sizing: border-box;
+    position: relative
+}
+
+
+
+main {
+    margin-top: -2px
+}
+
+
+.red {
+    color: #f00;
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit
+}
+
+.num a {
+    font-weight: 600
+}
+
+#show_form {
+    display: none
+}
+
+#open_menu {
+    font-size: 50px;
+    margin-top: -28px;
+    cursor: pointer
+}
+
+h1,
+h2 {
+    font-weight: 700;
+    line-height: 110.6%
+}
+
+[class^="backg_black"] {
+    background: #000;
+    color: #fff
+}
+
+
+.backg_red_a {
+    display: block;
+    width: fit-content;
+    background: #f00;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+#dis_n {
+    display: none
+}
+
+
+.backg_n_a {
+    background: none;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    box-sizing: border-box
+}
+
+
+.block_h {
+    display: flex;
+}
+
+
+.both {
+    clear: both
+}
+form *:focus {
+   outline: none;
+}
+
+.backg_black .backg_n_a {
+    border: 1px solid #FFF;
+    color: #fff;
+    width: fit-content;
+    margin: auto
+}
+
+
+.slide {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: 1s;
+    transition-property: transform;
+    display: none
+}
+
+.slide.active {
+    position: relative;
+    opacity: 1;
+    left: 0;
+    right: 0;
+    display: block
+}
+
+.slide.prev {
+    transform: translate(-100%, 0);
+    opacity: 1;
+    display: block
+}
+
+.slide.next {
+    transform: translate(100%, 0);
+    opacity: 1;
+    display: block
+}
+
+
+[disabled] {
+    color: rgba(255, 255, 255, 0)
+}
+strong{
+    font-weight: 600;
+    font-size: inherit;
+    
+}
+#block_shadow{
+    background: rgba(17, 16, 16, 0.90);
+    display: none;
+    position: fixed;
+    inset:0;
+    z-index: 999;
+    justify-content: center;
+    align-items: center
+}
+#block_shadow>*{
+    background: #FFF8F8;
+    box-sizing: border-box;
+    position: relative;
+    max-height: 100vh;
+    overflow-y: auto
+}
+.close_shadow{
+    font-size: 18px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer
+}
+#block_shadow p{
+    text-align: center
+}
+.form_h{
+    font-weight: 700
+}
+#form_number [type="text"]{
+    background: none;
+    border: 0;
+    border-bottom: 2px solid #000;
+    display: block;
+    margin: 40px auto
+}
+.error{
+    color: #f00;
+    text-align: center;
+    margin-bottom: 20px 
+}
+video, #video img{
+  width: 100%;
+}

@@ -1,0 +1,27 @@
+@media screen and (min-width:768px) and (max-width:1919px) {
+    h1{
+        font-size: 50px;
+        margin-bottom: 25px
+    }
+    h1+p{
+        margin-bottom: 65px
+    }
+    .backg_red_a, .backg_n_a{
+        padding: 15px 50px
+    }
+    .block_h{
+        width: 55%;
+        max-width: 500px
+    }
+    #block_shadow>*{
+        max-width: 1000px;
+        width: 91.14%;
+    }
+    #post_form{
+        padding: 140px 75px
+    }
+    #post_form .form_h{
+        font-size: 25px
+    }
+    
+}

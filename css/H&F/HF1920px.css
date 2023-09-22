@@ -1,0 +1,44 @@
+@media screen and (min-width:1920px) {
+    main> div, footer{
+        padding: 100px 19.27%
+    }
+    header{
+        padding: 30px 19.27%
+    }
+    .widows{
+        position: relative;
+        margin: auto;
+        max-width: 1200px
+    }
+    .logo{
+        margin-top: -12px
+    }
+    .menu{
+        position: static !important;
+        display: flex;
+        justify-content: space-between;
+        background: none !important;
+        padding: 0 !important
+    }
+    header .menu{
+        width: 22.24vw !important;
+    }
+    footer .menu{
+        width: 48.89%
+    }
+    #icons{
+        width: 13.41%
+    }
+    .menu li{
+        margin: 0 !important
+    }
+    #show_form{
+        display: block
+    }
+    #open_menu, #close_menu{
+        display: none
+    }
+    #f_text{
+        margin-top: 145px
+    }
+}

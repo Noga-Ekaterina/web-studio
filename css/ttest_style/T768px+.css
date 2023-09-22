@@ -1,0 +1,25 @@
+@media screen and (min-width:768px) {
+    #buttons{
+        display: flex;
+        justify-content: space-between
+    }
+    .form_flex{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap
+    }
+    .option{
+        width: 48%
+    }
+    .cvest_h{
+        text-align: center
+    }
+    [type="checkbox"]+label{
+        padding-left: 38px !important
+    }
+    [type="checkbox"]+label::before{
+        width: 28px !important;
+        height: 28px !important
+    }
+    
+}

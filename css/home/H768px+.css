@@ -1,0 +1,88 @@
+@media screen and (min-width:768px) {
+
+    #services,
+    #for_what_flex, #proeckts, .service_pluss{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap
+    }
+
+    .service {
+        padding: 50px 40px;
+        box-sizing: border-box
+    }
+
+    .for_what {
+        margin-top: 70px
+    }
+
+    .guarantee {
+        display: flex;
+    }
+
+    .num_g + p {
+        margin-top: -5px;
+    }
+
+    .num_g {
+        margin-top: -20px
+    }
+
+    .guarantee + .backg_red_a {
+        margin-top: 100px
+    }
+
+    .DS {
+        display: none
+    }
+
+    #find_out_price {
+        padding: 50px 66px
+    }
+
+    #find_out_price a {
+        margin: 0
+    }
+    #proeckts{
+        margin: 50px 0
+    }
+    #proeckts a{
+        width: 49%
+    }
+    #plan{
+        margin-top: 50px
+    }
+    .punckt{
+        width: 46%;
+        margin-bottom: 80px;
+        position: static !important;
+        opacity: 1;
+        display: block;
+        transform: none !important
+    }
+    .punckt.left{
+        float: left
+    }
+    .punckt.right{
+        float: right
+    }
+    #mt{
+        margin-top: 85px
+    }
+    .punckt .block_h{
+        width: 100%
+    }
+    #progres, #plan button{
+        display: none
+    }
+    .service_pluss>*{
+        width: 50%
+    }
+    h2+.service_pluss+.service_pluss{
+        flex-direction: row-reverse
+    }
+    .service_pluss .block_text{
+        align-self: center
+    }
+    
+}

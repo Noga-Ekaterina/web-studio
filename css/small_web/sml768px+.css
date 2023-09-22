@@ -1,0 +1,17 @@
+@media screen and (min-width:768px) {
+   main form{
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+   }
+   main .backg_red_a{
+      margin: 0;
+   }
+   #video+h2, img~h2{
+      font-size: 25px;
+      margin-top: 80px;
+   }
+   #form100{
+      width: 100% !important;
+   }
+}

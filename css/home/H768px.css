@@ -1,0 +1,102 @@
+@media screen and (min-width:768px) and (max-width:1919px) {
+    h1{
+        margin-bottom: 54px
+    }
+    h1+p{
+      max-width: 45ch;
+    }
+    .backg_black1 .block_text{
+        margin-top: 31px
+    }
+    #backg_disck{
+        right: -25.43vw;
+        margin-top: -240px;
+        max-height: 540px;
+        overflow: hidden;
+        display: flex;
+        align-items: center
+    }
+    .service{
+        width: 48%;
+        margin: 2vw 0
+    }
+    #dis_n{
+        display: block;
+        padding: 50px 0;
+    }
+    #dis_n .backg{
+        display: block;
+        height: 100%;
+        background-image: url(../../img/service_img.png);
+        background-position: center 33%;
+        background-size: 100% auto;
+        background-repeat: no-repeat
+    }
+    #dis_n img{
+        width: 100%;
+    }
+    .service h2{
+        margin-bottom: 27px
+    }
+    .service p{
+        margin-bottom: 40px;
+        max-width: max(29ch, 70%)
+    }
+    #for_what_flex{
+        margin-bottom: 134px
+    }
+    .for_what{
+        width: 48%;
+        margin-bottom: -32px
+    }
+    h3{
+        font-size: 30px
+    }
+    .guarantee{
+        column-gap:min(150px, 4%)
+    }
+    .guarantee>p{
+        width: 41%
+    }
+    img[src*="colaazh_s"]{
+        display: block !important
+    }
+    #photo_colaazh{
+        margin-left: -4.43vw;
+        width: 105%
+    }
+    #find_out_price{
+        box-shadow: 0px 26px 76px 0px rgba(12, 22, 36, 0.16);
+        width: 97%;
+        margin: auto;
+        margin-top: -130px
+    }
+    #find_out_price .big{
+        font-size: 30px;
+        line-height: 137%
+    }
+    .num_p{
+        font-size: 91.791px
+    }
+    .num_p+p{
+        font-size: 22px
+    }
+    #proeckt_form p{
+        max-width: max(45ch, 60%)
+    }
+    .service_pluss{
+        max-width: 1100px;
+        margin: auto
+    }
+    h2+.service_pluss {
+        margin-top: 50px
+    }
+    .service_pluss .block_text{
+        padding: 0 6.4%
+    }
+    .service_pluss .backg_red_a{
+        font-size: 14px;
+        padding: 15px 20px;
+    }
+    
+}

@@ -1,0 +1,29 @@
+@media screen and (max-width:767px) {
+    h1 {
+        font-size: 40px;
+        margin-bottom: 20px
+    }
+
+    h1 + p {
+        margin-bottom: 45px
+    }
+    .backg_red_a,
+    .backg_n_a {
+        padding: 15px 45px;
+    }
+    .widows >h2 {
+        font-size: 35px;
+        line-height: 128%
+    }
+    h3 {
+        font-size: 28px;
+    }
+    #block_shadow>*{
+        max-width: 500px;
+        width: 92%;
+        padding: 45px 18px
+    }
+    .no_small{
+        display: none
+    }
+}

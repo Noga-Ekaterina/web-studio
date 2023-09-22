@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+   <title>Document</title>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/1920px.css">
+   <link rel="stylesheet" href="css/768px+.css">
+   <link rel="stylesheet" href="css/768px.css">
+   <link rel="stylesheet" href="css/350px.css">
+   <link rel="stylesheet" href="css/H&F/HF1920px.css">
+   <link rel="stylesheet" href="css/H&F/HFstyle.css">
+   <link rel="stylesheet" href="css/H&F/HF350px.css">
+   <link rel="stylesheet" href="css/H&F/HF768px.css">
+   <link rel="stylesheet" href="css/small_web/smlStyle.css">
+   <link rel="stylesheet" href="css/small_web/sml1920px.css">
+   <link rel="stylesheet" href="css/small_web/sml768px+.css">
+   <link rel="stylesheet" href="css/small_web/sml768px.css">
+   <link rel="stylesheet" href="css/small_web/sml350px.css">
+</head>
+
+<body>
+   <div id="block_shadow">
+      <div id="form_number">
+         <div class="close_shadow">&#215;</div>
+         <p class="form_h">Заказать звонок</p>
+         <p>Оставьте номер телефона и я перезвоню Вам <br class="no_small">
+            в <strong>течении 30 минут</strong> и подробно <strong>отвечу</strong> на все <br>вопросы по созданию сайта</p>
+         <form method="post" onsubmit="return submitForm(this)">
+            <input type="text" value="+7" name="num">
+            <div class="error"></div>
+            <input type="submit" value="заказать звонок" class="backg_red_a">
+         </form>
+      </div>
+      <div id="post_form">
+         <div class="close_shadow">&#215;</div>
+         <p class="form_h">Спасибо, данные успешно отправлены, наш менеджер свяжется с Вами в <strong>течении 30 минут</strong></p>
+      </div>
+   </div>
+   <header>
+      <div class="widows">
+         <div class="logo">
+            <span class="red">An</span>Design <br>
+            Web&nbsp;Studio
+         </div>
+         <ul class="menu">
+            <li id="close_menu">×</li>
+            <li><a href="home.html#services">Услуги</a></li>
+            <li><a href="#">Цены</a></li>
+            <li><a href="home.html#proeckts">Портфолио</a></li>
+            <li><a href="">Контакты</a></li>
+         </ul>
+         <div class="num"><a href="tel:+373-69910767">+373-69910767</a></div>
+         <div id="show_form">Заказать звонок</div>
+         <div id="open_menu">≡</div>
+      </div>
+   </header>
+   <main>
+      <div class="backg_w">
+         <div class="widows">
+            <h1>Интернет-магазин</h1>
+            <p>Позволяет увеличить чило покупателей, предложив им возможность дистанционного заказа и доставки товаров
+               по месту назначения.</p>
+            <div id="video">
+               <video src="video.mp4" controls poster="img/online_store_img.png"></video>
+            </div>
+            <h2>Заказать разработку интернет-магазина</h2>
+            <form action="" method="post" onsubmit="return submitForm(this)">
+               <div>
+                  <input type="text" name="num" placeholder="Телефон*">
+                  <div class="error"></div>
+               </div>
+               <input type="text" placeholder="E-mail">
+               <input type="submit" value="заказать " class="backg_red_a">
+            </form>
+         </div>
+      </div>
+   </main>
+   <footer>
+      <div class="widows">
+         <div id="flex_f">
+            <div class="logo">
+               <span class="red">An</span>Design <br>
+               Web&nbsp;Studio
+            </div>
+            <ul class="menu">
+               <li><a href="home.html#services">Услуги</a></li>
+               <li><a href="#">Цены</a></li>
+               <li><a href="home.html#proeckts">Портфолио</a></li>
+               <li><a href="">Контакты</a></li>
+            </ul>
+            <div id="icons">
+               <a href=""><img src="img/nstagram.png" alt=""></a>
+               <a href=""><img src="img/telegram.png" alt=""></a>
+               <a href=""><img src="img/facebook.png" alt=""></a>
+            </div>
+         </div>
+         <div id="f_text">©2020 AnDesign Создание сайтов для бизнеса </div>
+      </div>
+   </footer>
+   <script src="scripts/menu.js"></script>
+   <script src="scripts/form.js"></script>
+</body>
+
+</html>

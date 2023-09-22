@@ -1,0 +1,121 @@
+@media screen and (min-width:1920px) {
+    h1{
+        font-size: 60px;
+        margin-bottom: 64px
+    }
+    h1+p{
+        max-width: 51ch;
+        margin-bottom: 70px
+    }
+    .backg_black1{
+        aspect-ratio:32/12.5;
+        max-height: 1500px
+    }
+
+    .backg_black1 .block_text{
+        font-size: 60px;
+        width: 16ch;
+        margin-top: 90px
+    }
+    #backg_disck{
+        position: absolute;
+        right: 0;
+        top: -78px;
+        width: 61%
+    }
+    
+    .service{
+        width: 379px
+    }
+    .service h2{
+        margin-bottom: 40px
+    }
+    .service p{
+        margin-bottom: 46px
+    }
+    .backg_n_a{
+        width: 100%
+    }
+    #top_a{
+        margin-top: 29px
+    }
+    
+    #for_what_flex{
+        flex-direction: row-reverse
+    }
+    .for_what{
+        width: 360px
+    }
+    h3{
+        font-size: 35px
+    }
+    .block_h{
+        width: 38%
+    }
+    .guarantee>p{
+        width: 52%
+    }
+    img[src*="colaazh_b"]{
+        display: block !important
+    }
+    #photo_colaazh{
+        width: 79%;
+        margin-right: -6vw;
+        float: right
+    }
+    #find_out_price{
+        box-shadow: 0px 26px 76px 0px rgba(12, 22, 36, 0.16);
+        width: fit-content;
+        position: absolute;
+        top: 24%
+    }
+    #find_out_price .big{
+        font-size: 35px;
+        line-height: 137%
+    }
+    #proeckts+ .backg_n_a{
+        margin: 0;
+        float: right
+    }
+    .num_p{
+        font-size: 174px
+    }
+    .num_p+p{
+        font-size: 35px
+    }
+    .red.no_b{
+        color: #fff
+    }
+    .red.yes_b{
+        color: #f00
+    }
+    #proeckt_form form{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    #proeckt_form [type="text"] {
+        width: 100%;
+        margin: 45px;
+        padding-bottom: 20px
+    }
+    #inputs{
+        width: 35%
+    }
+    #inputs+ div{
+        width: 42%;
+        margin-top:60px
+    }
+    h2+.service_pluss {
+        margin-top: 80px
+    }
+    .service_pluss .block_text{
+        padding: 0 12%
+    }
+    h2+.service_pluss+.service_pluss h3{
+        padding: 0 50px
+    }
+    .service_pluss .backg_red_a{
+        margin-left: 0
+    } 
+}

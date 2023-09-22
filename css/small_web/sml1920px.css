@@ -1,0 +1,27 @@
+@media screen and (min-width:1920px) {
+   main .widows>*{
+      max-width: 900px;
+   }
+   main form{
+      margin-top: 68px;
+   }
+   #img_float{
+      margin-top: 62px;
+   }
+   #img_float~p{
+      display: none;
+   }
+   #width_small{
+      max-width: 680px;
+      margin-bottom: 18px;
+   }
+   #img_float~p{
+      display: none;
+   }
+   p:nth-child(3){
+      display: block;
+   }
+   #form_small{
+      max-width: 850px;
+   }
+}

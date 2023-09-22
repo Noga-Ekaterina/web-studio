@@ -1,0 +1,41 @@
+@media screen and (max-width:767px) {
+
+    header,
+    main > div,
+    footer {
+        padding: 35px 4%
+    }
+    .widows{
+        position: relative;
+        margin: auto;
+        max-width: 500px
+    }
+
+    .logo {
+        margin-top: -10px
+    }
+    #flex_f{
+        display: block
+    }
+    footer .menu{
+        display: none
+    }
+    footer .red{
+        color: #fff
+    }
+    footer .logo{
+        text-align: center;
+        width: 100%;
+        letter-spacing: 6px;
+        margin-bottom: 48px
+    }
+    footer .logo::first-line{
+        font-size: 25px;
+        letter-spacing: normal;
+        line-height: 45px
+    }
+    
+    #icons a{
+        width: 38px
+    }
+}

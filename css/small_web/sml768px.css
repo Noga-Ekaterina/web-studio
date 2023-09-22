@@ -1,0 +1,25 @@
+@media screen and (min-width:768px) and (max-width:1919px) {
+   h1+p:not(.margin_sma_p){
+      clear: both;
+      max-width: 570px;
+   }
+   #video, img{
+      width: 84%;
+      margin-left: -0.4%;
+   }
+   .margin_sma_p{
+      margin-bottom: 0;
+   }
+   #img_float{
+      float: right;
+      width: 360px;
+      margin-top: 5px;
+      margin-left: 16px;
+   }
+   #img_float~h2{
+      margin-top: 11.5%;
+   }
+   #img_float~p{
+      margin-top: 1.5%;
+   }
+}
