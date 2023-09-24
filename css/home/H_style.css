@@ -229,7 +229,7 @@
 
 .service_pluss li {
    font-size: 16px !important;
-   max-height: 40px;
+   max-height: 90001em;
     list-style: none;
     position: relative;
     margin-bottom: 17px;
