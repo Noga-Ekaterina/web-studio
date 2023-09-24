@@ -230,6 +230,7 @@
 .service_pluss li {
    font-size: 15.99px !important;
     list-style: none;
+   max-width: 30ch;
     position: relative;
     margin-bottom: 17px;
 }
