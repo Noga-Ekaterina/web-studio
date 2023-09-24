@@ -228,13 +228,14 @@
 }
 
 .service_pluss li {
+   font-size: 16px !important;
     list-style: none;
     position: relative;
-    margin-bottom: clamp(17px, 2.21vw, 50px);
+    margin-bottom: 17px;
 }
 
 .service_pluss ul {
-    margin-top: clamp(20px, 2.6vw, 55px)
+    margin:20px 0 25px
 }
 
 .service_pluss li::before {
