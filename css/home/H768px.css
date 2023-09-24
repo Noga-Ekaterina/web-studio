@@ -94,6 +94,9 @@
     .service_pluss .block_text{
         padding: 0 6.4%
     }
+    .service_pluss img{
+      max-height: 425px;
+    }
     .service_pluss .backg_red_a{
         font-size: 14px;
         padding: 15px 20px;
